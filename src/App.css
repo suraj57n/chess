@@ -8,4 +8,13 @@ html,body{
   place-content: center;
   height: 100vh;
   background-color: var(--bg-color);
+  grid-template-columns: auto 220px;
+}
+button{
+  background-color: var(--dark-tile);
+  color: var(--light-tile);
+  border: 0 none;
+  padding: 10px 30px;
+  margin: 10px 0;
+  font-size: 1.1rem;
 }
